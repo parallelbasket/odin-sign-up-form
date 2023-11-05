@@ -13,11 +13,66 @@ img {
     width: 100%;
 }
 
-form {
-    flex-grow: 2.5;
-    background-color: gray;
+.right-container {
+    background-color: whitesmoke;
     min-height: 100vh;
+    width: 100%;
+    flex-shrink: 1;
 }
+.header-container {
+    width: 6400px;
+    flex-shrink: 3;
+    display: flex;
+    align-items: center;
+}
+
 h1 {
-    flex-grow: 1;;
+    color: white;
+    font-size: 64px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+}
+
+fieldset {
+    padding: 40px;
+    border: none;
+    background-color: white;
+    display: flex;
+    gap: 40px 120px;
+    flex-wrap: wrap;
+    box-shadow: 0px 5px 5px lightgray;
+}
+
+h2 {
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 40px;
+    font-size: 24px;
+    font-family:    Arial, sans-serif;
+}
+
+a {
+    color: darkgreen;
+}
+
+button {
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 40px;
+}
+
+button:hover {
+    background-color: forestgreen;
 }
